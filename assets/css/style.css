@@ -1,0 +1,214 @@
+/* Remove margin and padding from entire page and includes padding and border 
+in all height and width measurements for elements on the page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Applies common color to all body contents */
+body {
+    background-color: #d9dcd6;
+}
+/* Sets style of header and all related child elements including padding, font size, background
+and alignment */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+
+    h1 {
+        display: inline-block;
+        font-size: 48px;
+    }
+
+    nav {  
+        padding-top: 15px;
+        margin-right: 20px;
+        float: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;   
+
+        ul {
+            list-style-type: none;
+            text-align: right;
+            display: inline-block;   
+
+            li {
+                display: inline-flex;
+                margin-left: 25px;
+                text-align: right;
+            }
+        }
+    }
+}
+/*Changes color for the letters 'SEO' in the name HoriSEOn*/
+.seo {
+    color: #d9dcd6;
+}
+/*Changes color for links and removes default underline*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*Changes font size for all paragraph elements*/
+p {
+    font-size: 16px;
+}
+/*Hero image now had a defined height and takes up entire width of screen
+and scales image to fit entire container and be centered in the container */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*Aligns SEO and SMM images to left and applies a margin before content*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*Aligns ORM image to right and applies margin behind content*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*Sets alignment and sizing for all 3 main content boxes*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*Sets styling for SEO content box including size, poistion, background color, text color, and font*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+
+    img {
+        max-height: 200px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+}
+/*Sets styling for ORM content box including size, poistion, background color, text color, and font*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+   
+    h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+
+    img {
+        max-height: 200px;
+    }
+}
+/*Sets styling for SMM content box including size, poistion, background color, text color, and font*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+
+    img {
+        max-height: 200px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    
+}
+/*Applies styling for the 3 benefits including positioning on page, font, and background color*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*Applies styling to all lead gen information and related child elements including adding margin, adjusting
+alignment and text color*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+
+    h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    }
+
+    img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    }
+}
+/*Applies styling to all brand awareness information and related child elements including adding margin, adjusting
+alignment and text color*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+
+    h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    }
+
+
+    img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    }
+}
+/*Applies styling to all cost management information and related child elements including adding margin, adjusting
+alignment and text color*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+
+    h3 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    img {
+        display: block;
+        margin: 10px auto;
+        max-width: 150px;
+    }
+}
+/*Sets styling for footer and all related child elements including font, sizing, text aligmnet and positioning*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+    h3 {
+        font-size: 20px;
+    }
+}
+
+
