@@ -14,7 +14,7 @@ This week's challenge was to refactor existing HTML and CSS code to update it fo
 ![launchpages](https://sheehpat.github.io/week1-css-demo/)
 
 # Authors and acknowledgment
-Code refactored by Patrick Sheehan. Special acknowledgement to Nickolas Reis for discussing challenge.
+All code changes, refactoring, comments, authoring done by Patrick Sheehan. Special acknowledgement to Nickolas Reis for discussing challenge.
 
 # Project status
 Week 1 challenge is completed and ready for grading.
